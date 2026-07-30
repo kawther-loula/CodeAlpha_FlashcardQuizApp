@@ -1,50 +1,38 @@
-# Welcome to your Expo app 👋
+# 📚 Flashcard Quiz App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Une application mobile de flashcards pour réviser, construite avec **React Native** et **Expo**.
 
-## Get started
+<p align="center">
+  <img src="./screenshots/home.jpg" width="260" />
+  <img src="./screenshots/quiz.jpg" width="260" />
+</p>
 
-1. Install dependencies
+## ✨ Fonctionnalités
 
-   ```bash
-   npm install
-   ```
+- 🔄 **Cartes retournables en 3D** — question au recto, réponse au verso
+- 📂 **Catégories** — organise tes fiches par matière
+- 🔍 **Recherche** — retrouve une fiche par mot-clé, dans la question ou la réponse
+- ⭐ **Favoris** — marque tes fiches importantes pour les retrouver rapidement
+- 📊 **Suivi de progression** — visualise combien de fiches tu as déjà révisées
+- 🌙 **Mode sombre** — bascule entre thème clair et sombre, préférence sauvegardée
+- ✏️ **CRUD complet** — ajoute, modifie et supprime tes propres fiches
+- 💾 **Stockage local persistant** — tes données restent après fermeture de l'app
 
-2. Start the app
+## 🛠️ Stack technique
 
-   ```bash
-   npx expo start
-   ```
+`React Native` · `Expo (SDK 54)` · `TypeScript` · `Expo Router` · `NativeWind` · `React Native Reanimated` · `AsyncStorage` · `React Context API`
 
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
+## 🚀 Installation
 
 ```bash
-npm run reset-project
+git clone https://github.com/kawther444/flashcard-Quiz-app.git
+cd flashcard-Quiz-app
+npm install
+npx expo start
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+Scanne le QR code avec l'app **Expo Go** (Android/iOS), ou appuie sur `w` pour ouvrir dans le navigateur.
 
-## Learn more
+## 📖 À propos
 
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+Projet réalisé dans le cadre de mon apprentissage de React/React Native, en parallèle de mes études à ISIA.
