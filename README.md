@@ -3,8 +3,8 @@
 Une application mobile de flashcards pour réviser, construite avec **React Native** et **Expo**.
 
 <p align="center">
-  <img src="./screenshots/home.jpg" width="260" />
-  <img src="./screenshots/quiz.jpg" width="260" />
+  <img src="./screenshots/screenshotshome.jpg" width="260" />
+<img src="./screenshots/screenshotsquiz.jpg" width="260" />
 </p>
 
 ## ✨ Fonctionnalités
